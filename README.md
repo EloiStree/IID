@@ -42,10 +42,10 @@ But,
 - is it the date of the computer or the one of a NTP ?
 
 To specified we use a tag in front:
-- 10 DateTime UTC when to execute on the remote
 - 00 DateTime UTC when sent from the source
-- 09 NTP Sent from the default NTP
-- 08 NTP When to execute with default NTP
+- 01 DateTime UTC when to execute on the remote
+- 02 NTP Sent from the default NTP
+- 03 NTP When to execute with default NTP
 
 You can use the other digit to defined your own NTP custom time.
 
