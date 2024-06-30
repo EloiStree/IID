@@ -35,24 +35,14 @@ Note that the integer is under little endian format.
 
 **Date**
 
-By default the date is a ulong store with the tick since 1970.
+By default the date is a ulong store in milliseconds UTC since 1970 sync on NTP.
+If the first digit is 1 (1000000000000000000) the time is request to be executed at following time.
 
-But,
-- is it the date when to do the action or when it is sent ?
-- is it the date of the computer or the one of a NTP ?
+I wanted to use Ticks and make a difference between NTP and not NTP.
+But it makes it complicated for no reason.
+KISS 
 
-To specified we use a tag in front:
-- 00 DateTime UTC when sent from the source
-- 01 DateTime UTC when to execute on the remote
-- 02 NTP Sent from the default NTP
-- 03 NTP When to execute with default NTP
-
-You can use the other digit to defined your own NTP custom time.
-
-Losing the first digit means that you need to adjust the code every 316 Year.
-Next adjustement is in 2286.8788501026693 starting from 1970 January 1er UTC.
-As we have 99999999999999999 Ticks to use equal to 115740 days.
-
+**Conlusion**
 
 All that to say.
 
