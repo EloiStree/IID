@@ -92,11 +92,13 @@ Crates.io: https://crates.io/search?q=iid
 
 
 Package in:
-- My main language with NPM:
+- My main language:
   - Python: https://github.com/EloiStree/IID_PythonPackage.git
   - Rust: https://github.com/EloiStree/IID_RustPackage.git
   - C# Console: https://github.com/EloiStree/IID_CSharpConsolePackage.git
   - Unity: https://github.com/EloiStree/IID_UnityPackage
-
+  - Javascript
+    - Local Webpage : Not done yet
+    - Tamper Monkey :   Not done yet
 
 
