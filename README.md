@@ -35,12 +35,37 @@ Note that the integer is under little endian format.
 
 **Date**
 
-By default the date is a ulong store in milliseconds UTC since 1970 sync on NTP.
-If the first digit is 1 (1000000000000000000) the time is request to be executed at following time.
+The date is a ulong in micro seconds
 
-I wanted to use Ticks and make a difference between NTP and not NTP.
-But it makes it complicated for no reason.
-KISS 
+It max value is 18446744073709551615
+
+The two first digit are the type and the rest is the date in mlliseconds
+- 18 446744073709551615
+  - 18 is the type
+  - 253373149600000000 is year 9999
+  - 400000000000000000 is the max value before having bugs
+ 
+By default of this convention;
+- 00 Means unkown date (developper did not or forget to specify)
+  - If the next are 00, you can kind of guess:
+    - 400000000000000000 
+    - 000000001720342174 Seconds (
+    - 000001720342174000 Milli seconds
+    - 001720342174000000 Micro Seconds
+  - 10: When to execute as NTP date
+  - 01: When sent in NTP date
+  - 02: When to execute in local datetime utc
+  - 03: When sent in local datetime utc
+  - 04: Expose country by sending local date time region
+  - 05-08: Customable date
+  - 09: You don't need date you want space extension
+
+  
+ If ou are able to use NTP in your code, try to use it.
+
+
+
+
 
 **Conlusion**
 
