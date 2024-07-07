@@ -86,3 +86,8 @@ Feel free to send me donation, hire me as teacher or play my "Integer games" and
 
 
 
+OpenUPM: https://openupm.com/packages/?sort=downloads&q=iid
+Crates.io: https://crates.io/search?q=iid
+
+
+
