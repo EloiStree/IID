@@ -86,17 +86,17 @@ Feel free to send me donation, hire me as teacher or play my "Integer games" and
 
 
 
-OpenUPM: https://openupm.com/packages/?sort=downloads&q=iid
+OpenUPM: 
 Crates.io: https://crates.io/search?q=iid
 
 
 
 Package in:
 - My main language:
-  - Python: https://github.com/EloiStree/IID_PythonPackage.git
-  - Rust: https://github.com/EloiStree/IID_RustPackage.git
+  - Python: https://github.com/EloiStree/IID_PythonPackage.git  https://pypi.org/search/?q=iid
+  - Rust: https://github.com/EloiStree/IID_RustPackage.git  https://crates.io/search?q=iid
   - C# Console: https://github.com/EloiStree/IID_CSharpConsolePackage.git
-  - Unity: https://github.com/EloiStree/IID_UnityPackage
+  - Unity: https://github.com/EloiStree/IID_UnityPackage  https://openupm.com/packages/?sort=downloads&q=iid
   - Javascript
     - Local Webpage : Not done yet
     - Tamper Monkey :   Not done yet
