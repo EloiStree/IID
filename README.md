@@ -52,15 +52,13 @@ By default of this convention;
     - 000000001720342174 Seconds (
     - 000001720342174000 Milli seconds
     - 001720342174000000 Micro Seconds
-  - 10: When to execute as NTP date
   - 01: When sent in NTP date
-  - 02: When to execute in local datetime utc
+  - 02: When to execute as NTP date
   - 03: When sent in local datetime utc
-  - 04: Expose country by sending local date time region
-  - 05-08: Customable date
-  - 09: You don't need date you want space extension
-
-  
+  - 04: When to execute in local datetime utc
+  - 05-08: Undefined
+  - 09: You don't need date you want bytes space extension
+  - 
  If ou are able to use NTP in your code, try to use it.
 
 
