@@ -1,3 +1,9 @@
+IID & 🍺.io: https://buymeacoffee.com/apintio - https://github.com/EloiStree/IID - https://github.com/EloiStree/apint.io
+
+--------------------------------------
+
+
+
 # IID Index Integer Date
 
 Documentation of what is a IID  Index Integer Date. (A concept I created and is the base of my software(s) )
