@@ -8,7 +8,7 @@ C# version: [nuget.org/packages/be.elab.iid](https://www.nuget.org/packages/be.e
 _Unity OpenUPM: incoming_  
 _LUA: end-2025_    
 _Pico W version: soon_    
-_Javascript in page: end-2025_  
+_Javascript NPM: end-2025_  
 _Javascript in Tamper Monkey: end-2025_  
 
 -----------
