@@ -115,3 +115,14 @@ Package in:
     - Tamper Monkey :   Not done yet
 
 
+
+---------------------
+
+Note:
+- Generic Integer to Python action code read / write:
+  - https://github.com/EloiStree/2024_05_14_IntegerIndexDateToRemoteControl
+- Push Integer compressed data from unity3D To Integer transport 
+  - https://github.com/EloiStree/2024_04_07_PushGenericAsIntegerDate
+- Allows to make massive multiplayer game with Job System and computer using 16500 IID player in Unity3D.
+  - https://github.com/EloiStree/2024_04_07_GenericAsIntegerDateToSNAM16K
+
