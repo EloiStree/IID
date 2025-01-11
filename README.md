@@ -5,9 +5,11 @@ IID & 🍺.io: https://buymeacoffee.com/apintio - https://github.com/EloiStree/I
 Rust version: [crates.io/crates/iid](https://crates.io/crates/iid)  
 Python version: [pypi.org/project/iid42/](https://pypi.org/project/iid42/)  
 C# version: [nuget.org/packages/be.elab.iid](https://www.nuget.org/packages/be.elab.iid)  
-Unity OpenUPM: incoming
-LUA: end-2025
-Pico W version: soon
+_Unity OpenUPM: incoming_  
+_LUA: end-2025_    
+_Pico W version: soon_    
+_Javascript in page: end-2025_  
+_Javascript in Tamper Monkey: end-2025_  
 
 -----------
 
