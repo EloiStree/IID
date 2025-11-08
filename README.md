@@ -7,6 +7,8 @@ Python version: [pypi.org/project/iid42/](https://pypi.org/project/iid42/)
 C# version: [nuget.org/packages/be.elab.iid](https://www.nuget.org/packages/be.elab.iid)    
 _Unity OpenUPM ⚒️: [https://github.com/EloiStree/OpenUPM_IID](https://github.com/EloiStree/OpenUPM_IID)_    
 _Javascript NPM ⚒️: [https://www.npmjs.com/package/iid42](https://www.npmjs.com/package/iid42)_  
+_Godot Lib GD⚒️:    
+_Godot Lib CSharp⚒️:    
 _Pico W version: soon_      
 _LUA: end-2025_      
 _Javascript in Tamper Monkey: end-2025_  
